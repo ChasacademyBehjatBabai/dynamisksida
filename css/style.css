@@ -11,7 +11,7 @@ body {
 }
 
 .active{
-    font-weight: 900;
+    font-weight: 500;
 }
 
 nav {
@@ -22,6 +22,15 @@ nav {
     font-size: 30px;
     text-decoration-color: orangered;
 }
+
+nav a {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
 #modal-button{
     background-color: white;
 
@@ -159,6 +168,9 @@ a:hover {
 
 .cv-subcontainer2 {
     background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cv-pic {
@@ -189,6 +201,8 @@ p {
     }
     .cv-maincontainer h3{
         font-size: 20px;
+        margin: 0;
+        margin-bottom: 20px;
     }
 
     .cv-pic{
@@ -245,6 +259,13 @@ p {
     max-width: 250px;
     border-radius: 10%;
     padding: 3%
+}
+
+.trigger {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: none;
 }
 
 @media only screen and (max-width: 1250px) {
